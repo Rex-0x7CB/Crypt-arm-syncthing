@@ -4,7 +4,7 @@ My dockerized syncthing container for ARM platform. Syncthing is a distributed f
 
 Info:
 -------------
-Personally, I created this project to run this container on my Orange Pi with and take a daily backup of all my mobile data. You may wish to add your discovery servers for global discovery or maybe add relay server too.
+Personally, I created this project to run this container on my Orange Pi and take a daily backup of all my mobile data. You may wish to add your discovery servers for global discovery or maybe add relay server too.
 
 The web interface is available on port 8080 and by default there is no authentication to access it.
 
