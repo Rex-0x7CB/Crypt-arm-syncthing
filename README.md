@@ -28,8 +28,8 @@ Usage:
 Clone the repo and go to the repo folder:
 
 ```
-git clone git@github.com:Rex-0x7CB/arm-syncthing.git
-cd arm-syncthing
+git clone git@github.com:Rex-0x7CB/Crypt-arm-syncthing.git
+cd Crypt-arm-syncthing
 ```
 
 Build the docker image.
