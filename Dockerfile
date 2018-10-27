@@ -1,6 +1,6 @@
 FROM arm32v7/ubuntu:latest
 
-MAINTAINER Prashant Gupta <prashantgupta2609@gmail.com>
+MAINTAINER Rex <rex@crackerscreed.org>
 
 RUN apt update
 
