@@ -1,5 +1,6 @@
 # arm-syncthing
-My dockerized syncthing container for ARM platform. Syncthing is a distributed file synchronization solution. Visit https://syncthing.net.
+My dockerized syncthing container for ARM platform. Syncthing is a distributed file synchronization solution. Visit https://syncthing.net. The purpost of creating this image was a project I created on the weekend. You can read about the project here:
+https://crackerscreed.org/crypt-a-personal-cloud
 
 
 Info:
