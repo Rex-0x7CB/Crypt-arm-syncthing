@@ -18,7 +18,7 @@ Docker
 Flags:
 ------------------
 
-* -v /home/syncthing/syncthing_data:/tmp/
+* -v /tmp:/home/syncthing/syncthing_data
 
 The syncthing container stores all the synchronised data inside /home/syncthing/syncthing_data folder. You may wish to mount this folder onto the host machine.
 
