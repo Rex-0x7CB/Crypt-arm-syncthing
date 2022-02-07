@@ -1,0 +1,5 @@
+FROM mcr.microsoft.com/windows/servercore:ltsc2019
+WORKDIR C:\\Syncthing
+COPY syncthing-windows-amd64-v1.18.6 .
+
+ENTRYPOINT syncthing.exe -home=home\.config\syncthing
