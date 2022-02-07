@@ -1,0 +1,24 @@
+version: "3"
+  
+services:
+        syncthing:
+                container_name: Syncthing_container
+                build:
+                        context: .
+                        dockerfile: Dockerfile.linux.armv7
+
+                image: "synct:latest"
+
+                ports:
+                        - 10000:8080
+                        - 22000:22000
+                
+                volumes:
+                        - ./data:/home/syncthing/syncthing_data
+                        - ./.config:/home/syncthing/.config/syncthing/config.xml
+                networks:
+                        - syncthing_net
+
+networks:
+        syncthing_net:
+                driver: bridge

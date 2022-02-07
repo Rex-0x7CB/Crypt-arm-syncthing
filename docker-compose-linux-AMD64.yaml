@@ -5,7 +5,7 @@ services:
                 container_name: Syncthing_container
                 build:
                         context: .
-                        dockerfile: Dockerfile.linux
+                        dockerfile: Dockerfile.linux.AMD64
 
                 image: "synct:latest"
 
@@ -21,4 +21,4 @@ services:
 
 networks:
         syncthing_net:
-                driver: nat
+                driver: bridge
