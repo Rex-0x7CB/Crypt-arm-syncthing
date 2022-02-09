@@ -15,7 +15,7 @@ services:
                 
                 volumes:
                         - ./data:/home/syncthing/syncthing_data
-                        - ./.config:/home/syncthing/.config/syncthing/config.xml
+                        - ./.config:/home/syncthing/.config
                 networks:
                         - syncthing_net
 
